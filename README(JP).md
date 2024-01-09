@@ -83,6 +83,17 @@ mycrypto は、暗号通貨の詳細な取引情報表にして提供します�
 `Other (Ticker Search)`を選択
 ![ティッカーで検索](https://gyazo.com/6b6750cb606d18ab009624f541f4843a/raw)
 
+## カスタマイズ
+
+### 表示するテーブルのデザインを変更する場合
+
+テーブルは[cli-table2](https://github.com/jamestalmage/cli-table2)を使用しています。
+変更する場合は、`cli-table2`を参考に`CryptoTable`クラス(crypto_table.js)を変更してください。
+
+### デフォルトで表示されるティッカーを追加・削除する場合
+
+変更する場合は、`config/constants.js`の`cryptoChoices`の配列を変更してください。
+
 ## ライセンス
 
 このソフトウェアは、MIT ライセンスの下で公開されています。LICENSE.txt を参照してください。

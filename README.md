@@ -84,6 +84,16 @@ Select a ticker displayed at the top
 Select Other (Ticker Search)
 ![Ticker Search](https://gyazo.com/6b6750cb606d18ab009624f541f4843a/raw)
 
+## Customization
+
+### Changing the Design of Displayed Tables
+
+For the tables,[cli-table2](https://github.com/jamestalmage/cli-table2)is utilized. If you wish to modify the design, please refer to cli-table2 and make changes to the CryptoTable class (`crypto_table.js`).
+
+### Adding or Removing Default Displayed Tickers
+
+To make changes, modify the cryptoChoices array in `config/constants.js`.
+
 ## LICENSE
 
 This software is released under the MIT License, see LICENSE.txt.
