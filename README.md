@@ -1,4 +1,4 @@
-## mcoinrate
+## coinrate
 
 日本語の README は README(JP).md を確認してください
 
