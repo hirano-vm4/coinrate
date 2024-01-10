@@ -1,8 +1,8 @@
-## mycrypto
+## mcoinrate
 
 日本語の README は README(JP).md を確認してください
 
-mycrypto is a command-line tool that allows you to easily access detailed trading data and market transaction information of the entire cryptocurrency market right from your terminal. It enables access to a wide range of data, including real-time price fluctuations, market trends, and vital statistical information for each cryptocurrency.
+coinrate is a command-line tool that allows you to easily access detailed trading data and market transaction information of the entire cryptocurrency market right from your terminal. It enables access to a wide range of data, including real-time price fluctuations, market trends, and vital statistical information for each cryptocurrency.
 
 This tool facilitates quick and efficient information gathering. It supports approximately 2400 different cryptocurrency assets, and you can search for any asset not displayed at the top by using the Ticker search.
 
@@ -14,27 +14,27 @@ This tool facilitates quick and efficient information gathering. It supports app
 
 ## How to Use
 
-Use npx to run mycrypto:
+Use npx to run coinrate:
 
 ```javascript
-npx @hirano-vm4/mycrypto
+npx coinrate
 ```
 
 ## Prerequisites
 
-Before installing mycrypto, ensure that your system meets the following prerequisites:
+Before installing coinrate, ensure that your system meets the following prerequisites:
 
-- Node.js: You need to have Node.js installed on your system. The version required for mycrypto is version 10.0.0 or higher. You can download and install Node.js from [Node.js official website](https://nodejs.org/en).
-  Additionally, mycrypto relies on the following Node.js packages, which will be installed automatically when you install the tool:
+- Node.js: You need to have Node.js installed on your system. The version required for coinrate is version 10.0.0 or higher. You can download and install Node.js from [Node.js official website](https://nodejs.org/en).
+  Additionally, coinrate relies on the following Node.js packages, which will be installed automatically when you install the tool:
 
 - axios (v1.6.2 or higher): Used for making HTTP requests to fetch cryptocurrency data.
 - cli-table2 (v0.2.0 or higher): Utilized for rendering tables in the terminal.
 - enquirer (v2.4.1 or higher): Employed for interactive command-line interfaces.
-  No other specific software or libraries are required to run mycrypto beyond what is listed here. Ensure that your Node.js environment is set up correctly to proceed with the installation.
+  No other specific software or libraries are required to run coinrate beyond what is listed here. Ensure that your Node.js environment is set up correctly to proceed with the installation.
 
 ## Table Overview
 
-The mycrypto application provides a detailed table view of cryptocurrency data. Below is an overview of the information provided in each table row:
+The coinrate application provides a detailed table view of cryptocurrency data. Below is an overview of the information provided in each table row:
 
 ### Market Overview Table
 
