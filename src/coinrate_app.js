@@ -4,7 +4,7 @@ import { MarketOverView } from "./market_overview.js";
 import { CurrencyDetail } from "./currency_detail.js";
 import enquirer from "enquirer";
 
-export class MyCryptoApp {
+export class CoinRateApp {
   constructor() {
     this.cryptoMarket = new CryptoMarket();
   }

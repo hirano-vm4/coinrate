@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-import { MyCryptoApp } from "./src/mycrypto_app.js";
+import { CoinRateApp } from "./src/coinrate_app.js";
 
-const mycryptoApp = new MyCryptoApp();
-mycryptoApp.exec();
+const coinrateApp = new CoinRateApp();
+coinrateApp.exec();
