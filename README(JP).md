@@ -1,6 +1,6 @@
 ## coinrate
 
-Public
+![coinrateJpPic](https://github.com/hirano-vm4/coinrate/assets/105143414/62932802-1e90-4dea-961d-5bb5b3c60fe6)
 
 coinrate は、暗号資産市場全体の市場取引情報や各銘柄の詳細な取引データをターミナル上で簡単に取得できるコマンドラインツールです。ターミナルを通じて、リアルタイムの価格変動、市場の傾向、銘柄ごとの重要な統計情報など、幅広いデータへのアクセスが可能です。
 
@@ -59,7 +59,7 @@ coinrate は、暗号通貨の詳細な取引情報表にして提供します�
 | Currency Name      | 暗号通貨の名前、例: Bitcoin                   |
 | Ticker Symbol      | 暗号通貨の市場シンボル、例: BTC               |
 | Market Cap Rank    | 時価総額における暗号通貨のランク              |
-| Price              | 暗号通貨の現在価格、$43,376.11/BTC として表示 |
+| Price              | 暗号通貨の現在価格                            |
 | Price Change (1h)  | 過去 1 時間の価格変動率                       |
 | Price Change (24h) | 過去 24 時間の価格変動率                      |
 | Price Change (7d)  | 過去 7 日間の価格変動率                       |

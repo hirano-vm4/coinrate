@@ -1,5 +1,7 @@
 ## coinrate
 
+![coinratePic](https://github.com/hirano-vm4/coinrate/assets/105143414/d90cec8c-e57e-4655-bb5b-51a2dba1be33)
+
 日本語の README は README(JP).md を確認してください
 
 coinrate is a command-line tool that allows you to easily access detailed trading data and market transaction information of the entire cryptocurrency market right from your terminal. It enables access to a wide range of data, including real-time price fluctuations, market trends, and vital statistical information for each cryptocurrency.
@@ -58,7 +60,7 @@ The coinrate application provides a detailed table view of cryptocurrency data. 
 | Currency Name      | Name of the cryptocurrency, e.g., Bitcoin                              |
 | Ticker Symbol      | Market symbol of the cryptocurrency, e.g., BTC                         |
 | Market Cap Rank    | Rank of the cryptocurrency based on market capitalization              |
-| Price              | Current price of the cryptocurrency, displayed as $43,376.11/BTC       |
+| Price              | Current price of the cryptocurrency.                                   |
 | Price Change (1h)  | Price change rate over the past 1 hour                                 |
 | Price Change (24h) | Price change rate over the past 24 hours                               |
 | Price Change (7d)  | Price change rate over the past 7 days                                 |
