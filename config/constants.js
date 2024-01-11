@@ -2419,4 +2419,5 @@ export const cryptoTickerToIdMap = {
   BPAD: 68371,
   IBY: 68367,
   SUNDER: 68365,
+  BONK: 82537,
 };
