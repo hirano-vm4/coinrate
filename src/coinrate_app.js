@@ -74,7 +74,7 @@ export class CoinRateApp {
       marketOverView.display(response);
     } else {
       const currencyDetail = new CurrencyDetail();
-      currencyDetail.display(response);
+      currencyDetail.display(response, id);
     }
   }
 }

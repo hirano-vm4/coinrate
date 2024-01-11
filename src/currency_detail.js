@@ -5,7 +5,14 @@ export class CurrencyDetail {
     this.cryptoTable = new CryptoTable();
   }
 
-  display(response) {
+  display(response, id) {
+    const msg =
+      "\nHello Cardano (ADA) Holders! \nI operate a stake pool called [CAMP]. \n\n10% of our pool's earnings are donated to children's education. \nPlease consider delegating to us.\n\nhttps://campfire-stake-pool.com/\n\n";
+
+    if (id === 257) {
+      console.log(this.cryptoTable.titleStyle(msg));
+    }
+
     const table = this.cryptoTable.create();
     const marketData = [
       ["Price Checked At", response.time.toLocaleString()],
