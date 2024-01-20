@@ -2,7 +2,7 @@
 
 ![coinratePic](https://github.com/hirano-vm4/coinrate/assets/105143414/d90cec8c-e57e-4655-bb5b-51a2dba1be33)
 
-日本語の README は README(JP).md を確認してください
+日本語の README は [README(JP).md](<https://github.com/hirano-vm4/coinrate/blob/main/README(JP).md>) を確認してください
 
 coinrate is a command-line tool that allows you to easily access detailed trading data and market transaction information of the entire cryptocurrency market right from your terminal. It enables access to a wide range of data, including real-time price fluctuations, market trends, and vital statistical information for each cryptocurrency.
 
