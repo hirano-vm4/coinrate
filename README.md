@@ -98,4 +98,4 @@ To make changes, modify the cryptoChoices array in `config/constants.js`.
 
 ## LICENSE
 
-This software is released under the MIT License, see LICENSE.txt.
+This software is released under the MIT License, see [LICENSE.txt](https://github.com/hirano-vm4/coinrate/blob/main/LICENSE.txt).
